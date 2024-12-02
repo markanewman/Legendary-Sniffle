@@ -39,8 +39,6 @@ We will need the following installed:
 
 ## VS Code
 
-**TODO** - test me
-
 I use [devcontainers](https://code.visualstudio.com/docs/devcontainers/containers) to allow a repeatable development experience.
 The main burden this places on me is remembering to click `F1` before doing _any_ dev.
 It buys other stuff too, but that is the main one.
@@ -59,8 +57,6 @@ It buys other stuff too, but that is the main one.
 
 ## Powershell
 
-**TODO** - test me
-
 Sometimes you don't want to update the code, just run it for a demo.
 It also helps as a comparison to a cloud deploy.
 
@@ -70,7 +66,7 @@ It also helps as a comparison to a cloud deploy.
    * `docker build -f ./.devcontainer/Dockerfile -t legendary_sniffle:latest .`
    * Notice that the `Dockerfile` and the build context are in different locations
 4. Create and run the container
-   * `docker run --rm -p 80:80 legendary_sniffle `
+   * `docker run --rm -p 80:80 legendary_sniffle`
 5. Browse to _http://localhost/_
 5. Play
 

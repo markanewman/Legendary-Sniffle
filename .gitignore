@@ -1,0 +1,8 @@
+# Secrets
+*.env
+
+# General Python
+__pycache__/
+
+# data
+data/
