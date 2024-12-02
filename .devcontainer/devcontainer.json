@@ -1,0 +1,24 @@
+{
+  "name": "Legendary-Sniffle",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "../"
+  },
+  "containerEnv": {
+    "PYTHONPATH": "/workspaces/Legendary-Sniffle"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python@2024.18.0",
+        "ms-python.debugpy@2024.12.0",
+        "ms-python.vscode-pylance@2024.11.1",
+        "streetsidesoftware.code-spell-checker@3.0.1",
+        "github.vscode-github-actions@0.27.0",
+        "ms-azuretools.vscode-bicep@0.31.92"]
+    }
+  },
+  "runArgs": [ "--rm"],
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+  "mounts": []
+}

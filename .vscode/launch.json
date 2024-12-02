@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Python: Legendary Sniffle",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "fastapi",
+            "args": ["dev", "app/main.py", "--port", "80"]
+        }
+    ]
+}

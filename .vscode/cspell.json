@@ -1,0 +1,22 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "devcontainer",
+        "devcontainers",
+        "agentic",
+        "https",
+        "devis",
+        "starlette",
+        "thead"
+    ],
+    "ignoreWords": [
+        "fastapi",
+        "PYTHONPATH",        
+        "pycache",
+        "dacite"
+    ],
+    "import": []
+}
