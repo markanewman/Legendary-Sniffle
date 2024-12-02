@@ -1,4 +1,4 @@
-This is a re-invisioning of a pre-step to a project I completed with a friend of mine[^10].
+This is a re-envisioning of a pre-step to a project I completed with a friend of mine[^10].
 
 # Introduction
 
@@ -9,7 +9,7 @@ Design a method to create a better prompt for a simple task[^01][^03].
 
 # Method
 
-* Setup dev enviorment
+* Setup dev environment
 * Setup 3 agents
   * Agent_Designer
   * Agent_Worker
@@ -17,7 +17,7 @@ Design a method to create a better prompt for a simple task[^01][^03].
 * Agent_Designer designs several different prompts based on user input 
 * Agent_Worker is supplied several documents, then runs of copies[^09] of each prompt.
   This is a disconnected task.
-  * [Cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) is used to determin if a prompt is stable[^08].
+  * [Cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) is used to determine if a prompt is stable[^08].
     Unstable prompts are discarded.
   * Clustering is used to group the results[^08].
     The prompt that created the most cental response is returned along with the result.
@@ -25,8 +25,8 @@ Design a method to create a better prompt for a simple task[^01][^03].
 
 # Ops
 
-Acdemic papersneed to describe in detail how to repeat the experement.
-That can be a big ask to a neophite.
+Academic papers need to describe in detail how to repeat the experiment.
+That can be a big ask to a neophyte.
 Sometimes it is nice to be handed something and just play with it.
 
 ## Prerequisites
@@ -76,11 +76,11 @@ It also helps as a comparison to a cloud deploy.
 
 # Citation
 
-To cite the origional paper (prefered[^02]), use the following bib.txt:
+To cite the original paper (preferred[^02]), use the following bib.txt:
 
 > **TODO** - Add Cite block from Zi
 
-To cite the re-invisioned _process_, use the above _and_ the following bib.txt:
+To cite the re-envisioned _process_, use the above _and_ the following bib.txt:
 
 > @misc{newman2024,
 >  title={Legendary Sniffle},
@@ -89,20 +89,20 @@ To cite the re-invisioned _process_, use the above _and_ the following bib.txt:
 >  url={https://github.com/markanewman/Legendary-Sniffle}
 > }
 
-[^01]: Just because I _think_ somethign is easy dosent mean it actually is easy.
+[^01]: Just because I _think_ something is easy doesn't mean it actually is easy.
 [^02]: A PhD in Data Science is a PhD in support.
        We don't get a lot of chances at 1st author.
        Zi is trying for tenure.
        I don't care about that.
-[^03]: It bothers me that some people don't recoard their prompts[^05][^06] and seeds[^04].
-[^04]: I understand that OpenAI dosen't gurentee the same prompt will give the [same response](https://cookbook.openai.com/examples/reproducible_outputs_with_the_seed_parameter).
+[^03]: It bothers me that some people don't record their prompts[^05][^06] and seeds[^04].
+[^04]: I understand that OpenAI doesn't guarantee the same prompt will give the [same response](https://cookbook.openai.com/examples/reproducible_outputs_with_the_seed_parameter).
 [^05]: A chemist is not allowed to omit a reagent.
        Without a prompt, I can't replicate your work.
        That makes it bad science.
-[^06]: From an industral perspective, a prompt is a trade secret so it should _never_ be recorded.
-[^07]: My small child has some intresting interpreations of what "completing" as task entails.
-       We should not be supprised when our non-meat-based childern do the same thing.
-[^08]: I need a slider for thresholding.
+[^06]: From an industrial perspective, a prompt is a trade secret so it should _never_ be recorded.
+[^07]: My small child has some interesting interpretations of what "completing" as task entails.
+       We should not be surprised when our non-meat-based children do the same thing.
+[^08]: I need a slider for threshing.
        See my comment[^4] about seeds.
 [^09]: I need a slider for the number of copies.
        Running prompts costs money.
